@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+ 
+
+  <header>
+    <h1 class="titulo">Teste de Julgamento</h1>
+  </header>
+
+  <div class="container">
+    <div class="caixa-texto">
+      <div class="caixateste" id="1">
+          <h3 style="text-align: center;">O número seguinte é: 9 10 11 12 13 14 ?</h3>
+      </div>
+
+      <div class="caixateste" id="2">
+          <h3 style="text-align: center;">Qual o grupo que diverge dos demais? </h3>
+      <div class="caixateste" id="3">
+          <h3 style="text-align: center;">A letra seguinte é: abababababababab?</h3>
+      </div>    
+
+      <div class="caixateste"  id="4">
+          <h3 style="text-align: center;">O numero seguinte é: 25 24 23 22 21 20 ?</h3>
+      </div>  
+
+      <div class="caixateste"  id="5">
+          <h3 style="text-align: center;">Qual dos grupos diverge mais?</h3>
+      </div> 
+
+      <div class="caixateste"  id="6">
+              <h3 style="text-align: center;">A letra seguinte é: ppqrrsttuvvx?</h3>
+      </div>  
+
+      <div class="caixateste"  id="7">
+          <h3 style="text-align: center;">O número seguinte é: 3 6 9 12 15 18 ?</h3>
+      </div>    
+      <div class="caixateste"  id="8"> 
+          <h3 style="text-align: center;">Qual o grupo que diverge dos demais?</h3>
+      </div>    
+      <div class="caixateste"  id="9">
+          <h3 style="text-align: center;">A letra seguinte é: fsgshsis ?</h3>
+      </div>    
+      <div>
+          <h3 style="text-align: center;">O número seguinte é: 5 10 15 20 25?</h3>
+      </div>
+    </div>
+  </div>
+    <div class="box">
+      <div class="box-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+      </div> 
+      <div class="table-container">
+
+          <table>
+              <tr>
+                  <td class="cabeca" id="op">13</td>
+                  <td class="cabeca" id="op">14</td>
+                  <td class="cabeca" id="op">15</td>
+                  <td class="cabeca" id="op">16</td>
+              </tr>
+              <tr>
+                  <td class="semborda1">NNNN</td>
+                  <td class="semborda">CCCC</td>
+                  <td class="semborda">TTTT</td>
+                  <td class="semborda">JLPS</td>
+              </tr>
+              <tr>
+                <td class="semborda">a</td>
+                <td class="semborda">b</td>
+                <td class="semborda">c</td>
+                <td class="semborda">d</td>
+              </tr>
+              <tr>
+                <td class="semborda">18</td>
+                <td class="semborda">19</td>
+                <td class="semborda">20</td>
+                <td class="semborda">26</td>
+              </tr>
+              <tr>
+                <td class="semborda">SPHS</td>
+                <td class="semborda">SMCS</td>
+                <td class="semborda">TBMT</td>
+                <td class="semborda">SLPS</td>
+            </tr>
+            <tr>
+                <td class="semborda">u</td>
+                <td class="semborda">x</td>
+                <td class="semborda">v</td>
+                <td class="semborda">z</td>
+            </tr>
+            <tr>
+              <td class="semborda">19 </td>
+              <td class="semborda">20 </td>
+              <td class="semborda">21</td>
+              <td class="semborda">22</td>
+            </tr>
+            <tr>
+              <td class="semborda">ZHNA</td>
+              <td class="semborda">NOPQ</td>
+              <td class="semborda">BCDE</td>
+              <td class="semborda">TUVX</td>
+            </tr>
+            <tr>
+              <td class="semborda">i</td>
+              <td class="semborda">j</td>
+              <td class="semborda">s</td>
+              <td class="semborda">t</td>
+            </tr>
+            <tr>
+              <td class="pe">30</td>
+              <td class="pe">50</td>
+              <td class="pe">35</td>
+              <td class="pe">40</td>
+            </tr>
+          </table>
+      </div> 
+    </div>
+    <div class="view">
+      <div id="box1" class="box1"></div>
+      <div id="box2" class="box1"></div>
+      <div id="box3" class="box1"></div>
+      <div id="box4" class="box1"></div>
+      <div id="box5" class="box1"></div>
+      <div id="box6" class="box1"></div>
+      <div id="box7" class="box1"></div>
+      <div id="box8" class="box1"></div>
+      <div id="box9" class="box1"></div>
+      <div id="box10" class="box1"></div>
+    </div>
+  </div>
+
+  <div class="captar">
+    <input type="text" id="nome" placeholder="Digite Seu Nome">
+    <input type="text" id="escolaridade" placeholder="Escolaridade">
+      <input type="date" id="data" placeholder="Data"><br><br>
+      <button onclick="verificarBoxes()" id="btnVerificarBoxes" class="FEITO">FEITO</button>
+      <button onclick="enviarFormulario()" class="enviar" id="btnEnviarPDF" style="display: none;">ENVIAR</button>
+      
+
+  </div>
+
+
+ 
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+  <script src="src\myscript.js"></script>
+</body>
+
+</html>
